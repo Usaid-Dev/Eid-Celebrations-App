@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen>
       textColor: Colors.black,
     ),
     const _HomeFeature(
-     title: "Eidi",
+     title: "Ask Eidi",
      subtitle: 'Request Eidi like a pro 😇',
      icon: '💸',
      colors: [Color(0xFFFFB300), Color(0xFFFF6F00)],
