@@ -1,3 +1,10 @@
+import 'package:eid_celebrations_app/screens/AskEidi_Screen.dart';
+import 'package:eid_celebrations_app/screens/CountDown_Screen.dart';
+import 'package:eid_celebrations_app/screens/Dua_Screen.dart';
+import 'package:eid_celebrations_app/screens/EidQuiz_Screen.dart';
+import 'package:eid_celebrations_app/screens/EidiGenerator_Screen.dart';
+import 'package:eid_celebrations_app/screens/FunnyWishes_Screen.dart';
+import 'package:eid_celebrations_app/screens/WishCard_Screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -20,62 +27,62 @@ class _HomeScreenState extends State<HomeScreen>
   int _tapCount = 0;
 
   final List<_HomeFeature> _features = [
-//     const _HomeFeature(
-//       title: "Eid Cards",
-//       subtitle: 'Send gorgeous Eid cards',
-//       icon: '💌',
-//       colors: [Color(0xFFf093fb), Color(0xFFf5576c)],
-//       screen: WishCardsScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(      
-//        title: "Eid Jokes",
-//       subtitle: 'Hilarious Eid humor',
-//       icon: '😂',
-//       colors: [Color(0xFF4facfe), Color(0xFF00f2fe)],
-//       screen: FunnyWishesScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(
-//        title: "Eidi",
-//       subtitle: 'How much you deserve?',
-//       icon: '💰',
-//       colors: [Color(0xFF43e97b), Color(0xFF38f9d7)],
-//       screen: EidiGeneratorScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(
-//       title: "Eid Dua's",
-//       subtitle: 'Beautiful Eid prayers',
-//       icon: '🤲',
-//       colors: [Color(0xFFa18cd1), Color(0xFFfbc2eb)],
-//       screen: DuaScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(
-//        title: "Next Eid",
-//       subtitle: 'Days till next Eid',
-//       icon: '⏳',
-//       colors: [Color(0xFFffd89b), Color(0xFF19547b)],
-//       screen: CountdownScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(
-//       title: "Eid Quiz",
-//       subtitle: 'Test your Eid knowledge!',
-//       icon: '🧠',
-//       colors: [Color(0xFFFF6B6B), Color(0xFFFFE66D)],
-//       screen: EidQuizScreen(),
-//       textColor: Colors.black,
-//     ),
-//     const _HomeFeature(
-//      title: "Eidi",
-//      subtitle: 'Request Eidi like a pro 😇',
-//      icon: '💸',
-//      colors: [Color(0xFFFFB300), Color(0xFFFF6F00)],
-//      screen: AskEidiScreen(),
-//      textColor: Colors.black,
-// ),
+    const _HomeFeature(
+      title: "Eid Cards",
+      subtitle: 'Send gorgeous Eid cards',
+      icon: '💌',
+      colors: [Color(0xFFf093fb), Color(0xFFf5576c)],
+      screen: WishcardScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(      
+       title: "Eid Jokes",
+      subtitle: 'Hilarious Eid humor',
+      icon: '😂',
+      colors: [Color(0xFF4facfe), Color(0xFF00f2fe)],
+      screen: FunnywishesScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(
+       title: "Eidi",
+      subtitle: 'How much you deserve?',
+      icon: '💰',
+      colors: [Color(0xFF43e97b), Color(0xFF38f9d7)],
+      screen: EidigeneratorScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(
+      title: "Eid Dua's",
+      subtitle: 'Beautiful Eid prayers',
+      icon: '🤲',
+      colors: [Color(0xFFa18cd1), Color(0xFFfbc2eb)],
+      screen: DuaScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(
+       title: "Next Eid",
+      subtitle: 'Days till next Eid',
+      icon: '⏳',
+      colors: [Color(0xFFffd89b), Color(0xFF19547b)],
+      screen: CountdownScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(
+      title: "Eid Quiz",
+      subtitle: 'Test your Eid knowledge!',
+      icon: '🧠',
+      colors: [Color(0xFFFF6B6B), Color(0xFFFFE66D)],
+      screen: EidquizScreen(),
+      textColor: Colors.black,
+    ),
+    const _HomeFeature(
+     title: "Eidi",
+     subtitle: 'Request Eidi like a pro 😇',
+     icon: '💸',
+     colors: [Color(0xFFFFB300), Color(0xFFFF6F00)],
+     screen: AskeidiScreen(),
+     textColor: Colors.black,
+),
   ];
 
   @override
